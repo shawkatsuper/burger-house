@@ -1,0 +1,436 @@
+
+    
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+*/
+/* ######## Header Section CSS Start */
+.header{
+    width:100%;
+    background: url('../images/b-background.png') center top no-repeat;
+    background-size: cover;
+    padding: 0px 50px;
+}
+.header .main-logo{
+    margin: 30px 0px 0px -30px;
+}
+.header .main-logo img{
+    width: 50px;
+    margin: 0px 8px 20px 0px;
+}
+.header .main-logo h1{
+    display: inline-block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    color:#3d2514;
+}
+.header .delivery-bike{
+    text-align: right;
+    margin: 30px -25px 0px 0px;
+}
+.header .delivery-bike img{
+    width: 30px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.header .delivery-bike h3{
+    display: inline-block;
+    font-family:'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color:#3d2514;
+}
+
+.header .main-nav{
+    margin: -40px -23px 0px 30px;
+}
+.header .navbar .navbar-nav .nav-item .nav-link{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#3d2514;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin:0px 0px 0px 30px;
+    transition:1s
+}
+.header .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #bf2222;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:focus{
+    color: #ffffff;
+}
+.header .navbar .navbar-nav .nav-item .active{
+    color: #bf2222;
+    text-shadow: 10px 15px 30px -10px rgba(0,0,0,0.3);
+
+}
+/* ######## Banner Section CSS Start */
+.header .banner-text{
+    margin: 100px 0px 0px -15px;
+}
+.header .banner-text .b-slogan{
+    border: 2px dashed #3d2514;
+    display: inline-block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    color:#3d2514;
+    letter-spacing: 2px;
+    padding: 5px 10px 0px;
+    text-align: center;
+}
+.header .banner-text h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 140px;
+    color:#3d2514;
+    text-shadow: 2px 2px 0 #fee8bc, 4px 6px 0 #fee8bc;
+}
+.header .banner-text h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 80px;
+    text-shadow: 5px 0px 2px 0px;
+    color:#3d2514;
+    margin: -20px 0px 0px 0px;
+    text-shadow: 2px 2px 0 #fee8bc, 4px 6px 0 #fee8bc;
+}
+/* ######## Burger-img Section CSS Start */
+.burger{
+    width: 100%;
+    padding: 60px 0px 30px;
+}
+.burger .left-burger{
+    width: 100%;
+    padding: 0px 05px 0px 0px;
+    position: relative;
+}
+.burger .left-burger .text-box{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.burger .left-burger .text-box h3{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+.burger .left-burger .text-box h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    margin:-10px 0px 0px 0px;
+}
+/* ######## Right Img Header Section CSS Start */
+.burger .up-img{
+    padding: 0px 0px 28px;
+    position: relative;
+}
+.burger .up-img .up-text{
+    position: absolute;
+    top:15px;
+    left:15px;
+}
+.burger .up-img .up-text h3{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+.burger .up-img .up-text h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    margin:-10px 0px 0px 0px;
+}
+.burger .down-img{
+    padding: 0px 0px 15px;
+    position: relative;
+}
+.burger .down-img .down-text{
+    position: absolute;
+    top:15px;
+    left:15px;
+}
+.burger .down-img .down-text h3{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+.burger .down-img .down-text h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    margin:-10px 0px 0px 0px;
+}
+/* ######## Feature Section CSS Start */
+.feature{
+    width:100%;
+    padding: 20px 0px 30px;
+    text-align: center;
+}
+.feature .feature-text{
+    width: 100%;
+}
+.feature .feature-text h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    color:#3d2514;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding:10px 30px;
+    background-color: #ffc045;
+    margin:0px 0px 25px;
+}
+.feature .feature-text h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    color:#3d2514;
+    text-transform: uppercase;
+}
+.feature .feature-text p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7em;
+    font-size: 16px;
+    padding: 0px 80px 15px;
+    color:#3d2514;
+ 
+}
+.feature .card{
+    width: 100%;
+    border: none;
+}
+.feature .card .card-body .card-title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+.feature .card .card-body .card-title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+.feature .card .card-body .card-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+.feature .card .btn-primary{
+    border-radius: 0px;
+    padding: 8px 20px;
+    font-family:'Alfa Slab One', cursive;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 2px solid #bf2222;
+    background:#bf2222 ;
+    transition: 1s;
+}
+.feature .card .btn-primary:hover{
+    border: 2px solid #bf2222;
+    background:transparent ;
+    color: #bf2222;
+}
+/* ######## Slider Section CSS Start */
+.slider{
+    width: 100%;
+    padding: 60px 0px;
+}
+.slider .slider-box{
+     box-shadow: 10px 15px 30px -10px rgba(0,0,0,0.3);
+}
+.slider .slider-box .slider-text{
+    padding: 60px 40px 0px;
+}
+.slider .slider-box .slider-text h4{
+    font-family: 'Bebas Neue', sans-sarif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin: 0px;
+
+}
+.slider .slider-box .slider-text h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin: 0px 0px 30px;
+}
+.slider .slider-box .slider-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #3d3d3d;
+}
+.slider .slider-box .slider-img{
+    padding: 20px;
+}
+
+.slider .slider-box .owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: left;
+    -webkit-tap-highlight-color: transparent;
+     padding: 0px 0px 30px 35px;
+}
+.slider .slider-box .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -50px;
+}
+.slider .slider-box .owl-theme .owl-dots .owl-dot span{
+    margin: 5px 3px;
+}
+.slider .slider-box .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #ffc045;
+}
+/* ######## Reservation Section CSS Start */
+.reservation{
+    width: 100%;
+    padding: 30px 0px 80px;
+    position:relative;
+}
+
+.reservation .ls-img{
+    position: absolute;
+    width:150px;
+    top: 5px;
+    left: 0;
+}
+.reservation .bottle{
+    position: absolute;
+    width: 50px;
+    left: 163px;
+    top: 160px;
+}
+.reservation .rs-img{
+    position: absolute;
+    width: 175px;
+    right: 0px;
+    bottom:0px;
+}
+.reservation-text{
+    text-align: center;
+}
+.reservation .reservation-text h3{
+    font-family: 'Bebas Neue', sans-sarif;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #3d2514;
+    margin: 0px 0px 10px;
+}
+.reservation .reservation-text h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin: 0px 0px 50px;
+}
+.contact-form{
+    width: 100%;
+    padding: 0px 30px;
+}
+.contact-form .form-control{
+    padding: 9px;
+    margin: 12px 0px;
+    border: 1px solid #bebebe;
+    font-size: 16px;
+    color: #572525;
+    line-height: 1.7em;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.contact-form .form-control:focus{
+    border: 2px solid #0d6efd;
+    box-shadow: none;
+}
+.reservation .contact-form .btn-primary{
+    color: #fff;
+    font-family:'Alfa Slab One', sans-serif;
+    background-color: #bf2222;
+    border: 2px solid #bf2222;
+    text-transform: uppercase;
+    /* padding: 10px 120px; */
+    font-size: 16px;
+    width: 368px;
+    height: 48px;
+    transition: 1s;
+}
+.reservation .contact-form .btn-primary:hover{
+    background-color: transparent;
+    border: 2px solid #bf2222;
+    color:#bf2222;
+}
+/* ######## Footer Section CSS Start */
+.footer{
+    width: 100%;
+}
+.footer .footer-content{
+    background: url("../images/footer-back.png") center top no-repeat;
+    background-size: cover;
+    margin: 10px 25px 40px;
+}
+.footer .footer-content .footer-logo img{
+    width: 300px;
+    padding: 60px 0px 0px 30px;
+}
+.footer .footer-content .center-left{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #fff;
+    padding: 60px 80px 80px 30px;
+}
+.footer .footer-content ul{
+    margin: 65px 0px 0 145px;
+}
+.footer .footer-content li{
+    list-style: none ;
+    display: block;
+}
+.footer .footer-content li img{
+    width: 40px;
+    padding: 10px;
+}
+.footer .footer-content h4{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    display:inline-block;
+    margin-left: 15px;
+}
+.footer .footer-content{
+    font-size: 16px;
+    color: #fff;
+    display: block;
+}
+.footer .footer-content .f-end-p{
+    padding: 10px 0px 10px 30px;
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.footer .footer-content .social-icon{
+    /* width: 100%; */
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+
+}
+.footer .social-icon .fa{
+    font-size: 16px;
+    width:30px;
+    height: 30px;
+    line-height: 30px;
+}
+.footer .social-icon a{
+    background-color: #fff;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none;
+    margin-right:8px;
+    transition: 1s;
+}
+.footer .social-icon a:hover{
+    background-color: #bf2222;
+    color: #fff;
+   
+}
